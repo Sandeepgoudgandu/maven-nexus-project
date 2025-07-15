@@ -49,6 +49,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
+			<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <mainClass>com.example.JavaWebAppApplication</mainClass>
+    </configuration>
+</plugin>
+
 			<!--plugin>
 			  <groupId>org.codehaus.sonar</groupId>
 			  <artifactId>sonar-maven-plugin</artifactId>
